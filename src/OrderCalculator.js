@@ -5,10 +5,6 @@ export default class OrderCalculator{
         this.menu = foodItems
     }
 
-    getOrder(){
-        return this.order
-    }
-
     getQuantity(id){
         return this.order[id] || 0
     }
