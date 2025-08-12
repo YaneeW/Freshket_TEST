@@ -1,9 +1,8 @@
 export default class OrderCalculator{
-    constructor(foodItems){
+    constructor(foodItems = []){
         this.member = false
         this.order = {}
         this.menu = foodItems
-        this.discount = 0
     }
 
     getOrder(){

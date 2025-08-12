@@ -73,9 +73,11 @@ function App() {
         </div>
         <div className='font-500'>
           <div >Use a member card to discount 10% of total:  <span>{checked ? "Yes" : "No"}</span></div>
-          <div>Discount  <span>{discount} THB</span></div>
-          <div>Total  <span>{total} THB</span></div>
+          <div>Discount  : <span>{discount} THB</span></div>
+          <div>Total before discount  : <span>{total} THB</span></div>
+          
         </div>
+        <h3>Total  : <span>{total - discount} THB</span></h3>
        
       </div>
     </div>
